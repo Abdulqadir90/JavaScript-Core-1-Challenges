@@ -1,6 +1,10 @@
-function missingNum(arr) {
+function missingNum(el) {
+  for (let i = 1; i <=el.length + 1; i++){
+    if(el.indexOf(i) === -1)
+    return i;
+  }
   //Write your code in here. You should return the missing the number below.
-  return 0;
+  
 }
 
 /**                            */
